@@ -1,0 +1,15 @@
+export declare const BaseURL = "https://m.post.naver.com";
+export declare const AsyncURL: string;
+export declare const MemberURL: string;
+export declare const MemberProfileURL: string;
+export declare const MemberPostsListURL: string;
+export declare const SeriesListURL: string;
+export declare const SeriesURL: string;
+export declare const SeriesPostsURL: string;
+export declare const PostURL: string;
+export declare const PostRecommendsURL: string;
+export declare const TagURL: string;
+export declare const TagRelatedURL: string;
+export declare const TagAuthorList: string;
+export declare const TagPostsURL: string;
+export declare const TopPostListURL: string;

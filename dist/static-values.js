@@ -1,0 +1,18 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TopPostListURL = exports.TagPostsURL = exports.TagAuthorList = exports.TagRelatedURL = exports.TagURL = exports.PostRecommendsURL = exports.PostURL = exports.SeriesPostsURL = exports.SeriesURL = exports.SeriesListURL = exports.MemberPostsListURL = exports.MemberProfileURL = exports.MemberURL = exports.AsyncURL = exports.BaseURL = void 0;
+exports.BaseURL = 'https://m.post.naver.com';
+exports.AsyncURL = `${exports.BaseURL}/async`;
+exports.MemberURL = `${exports.BaseURL}/my.naver`;
+exports.MemberProfileURL = `${exports.AsyncURL}/profile.naver`;
+exports.MemberPostsListURL = `${exports.AsyncURL}/my.naver`;
+exports.SeriesListURL = `${exports.AsyncURL}/series.naver`;
+exports.SeriesURL = `${exports.BaseURL}/my/series/detail.naver`;
+exports.SeriesPostsURL = `${exports.BaseURL}/my/series/detail/more.nhn`;
+exports.PostURL = `${exports.BaseURL}/viewer/postView.naver`;
+exports.PostRecommendsURL = `${exports.BaseURL}/viewer/getRecommendPostView2.naver`;
+exports.TagURL = `${exports.BaseURL}/tag/overView.naver`;
+exports.TagRelatedURL = `${exports.BaseURL}/tag/relateTagList.naver`;
+exports.TagAuthorList = `${exports.BaseURL}/tag/editorList.naver`;
+exports.TagPostsURL = `${exports.BaseURL}/tag/postList/more.naver`;
+exports.TopPostListURL = `${exports.AsyncURL}/rankingMore.naver`;
